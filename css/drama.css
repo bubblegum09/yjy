@@ -1,0 +1,167 @@
+
+/* !!!!slogan!!! */
+.slogan{
+    
+    width: 1000px;
+    height: 200px;
+    text-align:center;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.slogan img{
+    text-align:center;
+}
+.slogan p{
+    font-size: 18px;
+    color: rgb(73, 38, 16);
+    text-align: right;
+    width: 813px;
+}
+/* !!!!li3 !!!!!*/
+.li3{
+    
+    text-align: center;
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+.li3 .text{
+    
+    height: 200px;
+    width: 600px;
+    float: left;
+    padding-left: 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+.li3 .pic{
+   
+    width: 600px; 
+   
+}
+/* !!!!!!!fj!!!!!!! */
+.fl{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.fl .pic1{
+    float: left;
+    height: 600px;
+    position: relative;
+    margin-left: 150px;
+    box-shadow: 0 20px 90px 0 rgba(0, 0, 0, .08), 0 9px 30px 0 rgba(0, 0, 0, .1);
+}
+.fl .text{
+    width: 600px;
+    height: 400px; 
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 130px;
+}
+
+/* 朱丽叶与罗密欧 */
+.rj{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.rj .text{
+    height: 200px;
+    width: 600px;
+    float: left;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+    padding-top: 180px;
+}
+.rj .pic{
+    height: 600px;
+    box-shadow: 0 20px 90px 0 rgba(0, 0, 0, .08), 0 9px 30px 0 rgba(0, 0, 0, .1);
+}
+/* ！！！！！more！！！！ */
+.more{
+    text-align:center;
+}
+.more p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(73, 38, 16);
+
+}
+.m-1{
+    margin: 0 auto;
+}
+.wx{
+    
+    width: 300px;
+   }
+
+.wx p{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(83, 83, 83, 0.795);
+    
+}
+.wx img{
+    margin: auto;
+    display: block;
+}
+.ins{
+    width: 300px;
+   
+}
+.ins p{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(83, 83, 83, 0.795);
+}
+.ins img{
+    margin: auto;
+    display: block;
+}
+
+/* ！！！！页脚 ！！！！！*/
+.footer{
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-family: "plantc", "Source Han Serif", serif;
+    font-size: 16px;
+    color:#646363;
+    font-weight: normal;
+    text-align: center;
+}
+/* 图片滑动 */
+#picContent {
+        
+    position:relative;
+    overflow-x:auto;
+    width:600px;
+    height:400px;
+    margin:0 0;
+    }
+    
+#picContent ul {
+    position:absolute;
+    left:0;
+    top:0;
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:scroll;
+    
+    }
+#picContent ul li {
+    width:550px;
+    min-height:400px;
+    margin-right:20px;
+    margin-top:10px;
+    text-align:center;
+    list-style:none;
+    }
+.box-div {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}

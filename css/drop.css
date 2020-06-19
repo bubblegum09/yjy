@@ -1,0 +1,68 @@
+/* 导航栏的样式 */
+        .navbar{
+            width: 40px;
+            height: 40px;
+            z-index: 100;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            top: 10px;
+            left: 10px;
+            width: 40px;
+            height: 40px;
+        }      
+
+        .dropbtn {
+            
+            background: url(../img/btn.JPG);
+            background-size: contain;
+            color: white; 
+            padding: 0px;
+            border: none;
+            cursor: pointer;
+            margin: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            font-size: 16px;
+            z-index: 1000;
+            font-family: "plantc", "Source Han Serif", serif;
+            
+        }
+        
+        .dropdown-content a {
+            color: #925e03;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: "plantc", "Source Han Serif", serif;
+            
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #faeacf
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        
+        img{
+            padding: 0;
+        }
+        a{
+            font-family: "plantc", "Source Han Serif", serif;
+        
+        }
+        

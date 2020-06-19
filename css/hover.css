@@ -1,0 +1,96 @@
+img {
+    border: 0
+}
+body{
+    font-family: "plantc", "Source Han Serif", serif;
+    
+}
+
+
+body {
+    behavior: url("csshover.htc");   
+    text-align: center;
+    
+}
+
+.pic {
+    position: relative;
+    width: 554px;
+    height: 346px;
+    margin: 0 auto;
+    /* overflow:  hidden; */
+}
+#pic1{
+    background-color: rgb(185, 134, 134);
+    margin-top: 50px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 610px;
+}
+
+
+.pic a,
+.pic span {
+    display: none;
+    text-decoration: none
+}
+
+
+.pic:hover {
+    cursor: pointer
+}
+
+.pic:hover a.now {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    left: 0;
+    display: block;
+}
+
+.pic:hover span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    width: 554px;
+    z-index: 10;
+    height: 346px;
+    line-height: 36px;
+    background: rgb(105, 104, 104);
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    text-align: center;
+    overflow: hidden;
+}
+#pic1:hover span{
+    width: 610px;
+
+}
+
+.pic:hover p{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#pic2{
+    
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#pic3{
+    background-color: rgb(104, 161, 130);
+    margin-top: 10px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+p{
+    font-size: 20px;
+}

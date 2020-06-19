@@ -1,0 +1,84 @@
+/* !logo! */
+.logo{
+    margin-top: 10px;
+    right: 10px;
+    float: right;
+}
+
+/* ！！！！header！！！！ */
+.header{
+    width: 100%;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+/* !!!!!main!!!!! */
+.main{
+    margin: 0 auto;
+    text-align: center;
+}
+.main p{
+    font-size: 22px;
+    color: rgb(73, 38, 16);
+}
+/* ！！！！！more！！！！ */
+.more{
+    text-align:center;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+.more p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(73, 38, 16);
+}
+.m-1{
+    margin: 0 auto;
+}
+.wx{
+    width: 300px;
+    
+}
+
+.wx p{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(83, 83, 83, 0.795);
+    
+}
+.wx img{
+    margin: auto;
+    display: block;
+}
+.ins{
+    width: 300px;
+   
+}
+.ins p{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(83, 83, 83, 0.795);
+}
+.ins img{
+    margin: auto;
+    display: block;
+}
+
+/* ！！！！页脚 ！！！！！*/
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-family: "plantc", "Source Han Serif", serif;
+    font-size: 16px;
+    color:#646363;
+    font-weight: normal;
+    text-align: center;
+}
+
+ul,li{
+    list-style: none;
+}
